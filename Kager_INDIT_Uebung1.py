@@ -20,9 +20,12 @@ def AlleWerte(a):
         print (i)
         i= i+1
         
-    
-fa = float(input("Eingabe Zahl 1: "))
-fb = float(input("Eingabe Zahl 2: "))
+try:
+    fa = float(input("Eingabe Zahl 1: "))
+    fb = float(input("Eingabe Zahl 2: "))
+except:
+        print("Falscher Wert!")
+        exit()
 
 print("Welche Funktion soll ausgeführt werden? (Klartext)")
 
@@ -49,5 +52,3 @@ if iAllOut == 1:
     AlleWerte(fc)
 else:
     print("Ok")
-
-
