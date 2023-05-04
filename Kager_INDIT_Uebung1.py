@@ -1,5 +1,3 @@
-#include <stdio.h>
-
 def add(a,b):
     print("ADD-Funktion mit Werten",a,"und",b,"angestoßen")
     return a+b
